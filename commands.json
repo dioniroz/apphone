@@ -1,0 +1,48 @@
+{
+    "ls": {
+        "command": "ls -la",
+        "description": "Lista los archivos y directorios en el directorio actual",
+        "icon": "icons/ls.png"
+    },
+    "gimp": {
+        "command": "gimp",
+        "description": "abre gimp",
+        "icon": "icons/gimp.png"
+    },
+    "google": {
+        "command": "google-chrome https://www.google.com",
+        "description": "Abre Google Chrome y carga la página de búsqueda de Google",
+        "icon": "icons/googlelens.png"
+    },"calc": {
+    "command": "gnome-calculator &",
+    "description": "Abre la calculadora",
+    "icon": "icons/calc.png"
+},"bajar_volumen": {
+    "command": "amixer -D pulse sset Master 5%- unmute",
+    "description": "Bajar Volumen",
+    "icon": "icons/downvol.png"
+},"subir_volumen": {
+    "command": "amixer -D pulse sset Master 5%+ unmute",
+    "description": "Subir Volumen",
+    "icon": "icons/volup.png"
+},
+"mute": {
+    "command": "amixer -D pulse sset Master toggle",
+    "description": "Mute",
+    "icon": "icons/volume-mute.png"
+},"copyq": {
+"command": "copyq &",
+"description": "abre copyq",
+"icon": "icons/copyq.png"
+},
+"copyqshow": {
+"command": "copyq show &",
+"description": "Muestra la interfaz gráfica de CopyQ",
+"icon": "icons/copyq.png"
+},
+"tema_conky": {
+    "command": "conky -c /CubesConky/conkyrc &",
+    "description": "Abre el tema Conky 'Cubes Conky'",
+    "icon": "icons/conky.png"
+}
+}
